@@ -3,6 +3,7 @@ package academy.devdojo.maratonajava.javacore.Fmodificadorestatico.dominio;
 public class Carro {
     private String nome;
     private double velocidadeMaxima;
+    //static faz se tornar uma propriedade da classe e não das instâncias.
     //o modificador static faz a propriedade ser da classe Carro, independente das instâncias.
     //essa propriedade é compartilhada entre TODOS os objetos criados.
     //as boas práticas dizem que eu posso criar um método static quando ele não acessa os atrubutos da instância.
